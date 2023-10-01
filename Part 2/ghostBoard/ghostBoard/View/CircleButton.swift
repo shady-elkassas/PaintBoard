@@ -8,8 +8,9 @@
 import SwiftUI
 
 //Custom circle button view
-struct CircleButton: View {
+struct CircleButton: View{
     
+    //variables
     var color: String
     
     //Binding variable
@@ -55,7 +56,7 @@ struct CircleButton: View {
 
 struct CircleButton_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButton(color: "Red", selectedColor: .constant("Blue"))
+        CircleButton(color: "Red", selectedColor: .constant("Red"))
     }
 }
 

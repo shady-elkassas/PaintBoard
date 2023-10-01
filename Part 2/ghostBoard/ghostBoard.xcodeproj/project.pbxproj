@@ -12,11 +12,11 @@
 		433B60E32AC4940400EA8098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433B60E22AC4940400EA8098 /* Assets.xcassets */; };
 		433B60E62AC4940400EA8098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433B60E52AC4940400EA8098 /* Preview Assets.xcassets */; };
 		433B60F02AC4940500EA8098 /* ghostBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B60EF2AC4940500EA8098 /* ghostBoardTests.swift */; };
-		433B60FA2AC4940500EA8098 /* ghostBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B60F92AC4940500EA8098 /* ghostBoardUITests.swift */; };
-		433B60FC2AC4940500EA8098 /* ghostBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B60FB2AC4940500EA8098 /* ghostBoardUITestsLaunchTests.swift */; };
 		433B610B2AC49E7D00EA8098 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B610A2AC49E7D00EA8098 /* Line.swift */; };
 		433B61102AC49FCC00EA8098 /* PaintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B610F2AC49FCC00EA8098 /* PaintViewModel.swift */; };
 		433B61122AC4AE2400EA8098 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B61112AC4AE2400EA8098 /* CircleButton.swift */; };
+		43CCD8832ACA2C4A00D620B6 /* ghostBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CCD8822ACA2C4A00D620B6 /* ghostBoardUITests.swift */; };
+		43CCD8852ACA2C4A00D620B6 /* ghostBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CCD8842ACA2C4A00D620B6 /* ghostBoardUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,7 @@
 			remoteGlobalIDString = 433B60DA2AC4940300EA8098;
 			remoteInfo = ghostBoard;
 		};
-		433B60F62AC4940500EA8098 /* PBXContainerItemProxy */ = {
+		43CCD8862ACA2C4A00D620B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 433B60D32AC4940300EA8098 /* Project object */;
 			proxyType = 1;
@@ -44,12 +44,12 @@
 		433B60E52AC4940400EA8098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		433B60EB2AC4940500EA8098 /* ghostBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghostBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433B60EF2AC4940500EA8098 /* ghostBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghostBoardTests.swift; sourceTree = "<group>"; };
-		433B60F52AC4940500EA8098 /* ghostBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghostBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		433B60F92AC4940500EA8098 /* ghostBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghostBoardUITests.swift; sourceTree = "<group>"; };
-		433B60FB2AC4940500EA8098 /* ghostBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghostBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		433B610A2AC49E7D00EA8098 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		433B610F2AC49FCC00EA8098 /* PaintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintViewModel.swift; sourceTree = "<group>"; };
 		433B61112AC4AE2400EA8098 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		43CCD8802ACA2C4A00D620B6 /* ghostBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghostBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CCD8822ACA2C4A00D620B6 /* ghostBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghostBoardUITests.swift; sourceTree = "<group>"; };
+		43CCD8842ACA2C4A00D620B6 /* ghostBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghostBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433B60F22AC4940500EA8098 /* Frameworks */ = {
+		43CCD87D2ACA2C4A00D620B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,7 +82,7 @@
 			children = (
 				433B60DD2AC4940300EA8098 /* ghostBoard */,
 				433B60EE2AC4940500EA8098 /* ghostBoardTests */,
-				433B60F82AC4940500EA8098 /* ghostBoardUITests */,
+				43CCD8812ACA2C4A00D620B6 /* ghostBoardUITests */,
 				433B60DC2AC4940300EA8098 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			children = (
 				433B60DB2AC4940300EA8098 /* ghostBoard.app */,
 				433B60EB2AC4940500EA8098 /* ghostBoardTests.xctest */,
-				433B60F52AC4940500EA8098 /* ghostBoardUITests.xctest */,
+				43CCD8802ACA2C4A00D620B6 /* ghostBoardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,15 +125,6 @@
 			path = ghostBoardTests;
 			sourceTree = "<group>";
 		};
-		433B60F82AC4940500EA8098 /* ghostBoardUITests */ = {
-			isa = PBXGroup;
-			children = (
-				433B60F92AC4940500EA8098 /* ghostBoardUITests.swift */,
-				433B60FB2AC4940500EA8098 /* ghostBoardUITestsLaunchTests.swift */,
-			);
-			path = ghostBoardUITests;
-			sourceTree = "<group>";
-		};
 		433B610C2AC49F8700EA8098 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +149,15 @@
 				433B610F2AC49FCC00EA8098 /* PaintViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		43CCD8812ACA2C4A00D620B6 /* ghostBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43CCD8822ACA2C4A00D620B6 /* ghostBoardUITests.swift */,
+				43CCD8842ACA2C4A00D620B6 /* ghostBoardUITestsLaunchTests.swift */,
+			);
+			path = ghostBoardUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,22 +198,22 @@
 			productReference = 433B60EB2AC4940500EA8098 /* ghostBoardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		433B60F42AC4940500EA8098 /* ghostBoardUITests */ = {
+		43CCD87F2ACA2C4A00D620B6 /* ghostBoardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 433B61052AC4940500EA8098 /* Build configuration list for PBXNativeTarget "ghostBoardUITests" */;
+			buildConfigurationList = 43CCD8882ACA2C4A00D620B6 /* Build configuration list for PBXNativeTarget "ghostBoardUITests" */;
 			buildPhases = (
-				433B60F12AC4940500EA8098 /* Sources */,
-				433B60F22AC4940500EA8098 /* Frameworks */,
-				433B60F32AC4940500EA8098 /* Resources */,
+				43CCD87C2ACA2C4A00D620B6 /* Sources */,
+				43CCD87D2ACA2C4A00D620B6 /* Frameworks */,
+				43CCD87E2ACA2C4A00D620B6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				433B60F72AC4940500EA8098 /* PBXTargetDependency */,
+				43CCD8872ACA2C4A00D620B6 /* PBXTargetDependency */,
 			);
 			name = ghostBoardUITests;
 			productName = ghostBoardUITests;
-			productReference = 433B60F52AC4940500EA8098 /* ghostBoardUITests.xctest */;
+			productReference = 43CCD8802ACA2C4A00D620B6 /* ghostBoardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +233,7 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 433B60DA2AC4940300EA8098;
 					};
-					433B60F42AC4940500EA8098 = {
+					43CCD87F2ACA2C4A00D620B6 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 433B60DA2AC4940300EA8098;
 					};
@@ -254,7 +254,7 @@
 			targets = (
 				433B60DA2AC4940300EA8098 /* ghostBoard */,
 				433B60EA2AC4940500EA8098 /* ghostBoardTests */,
-				433B60F42AC4940500EA8098 /* ghostBoardUITests */,
+				43CCD87F2ACA2C4A00D620B6 /* ghostBoardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433B60F32AC4940500EA8098 /* Resources */ = {
+		43CCD87E2ACA2C4A00D620B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,12 +306,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433B60F12AC4940500EA8098 /* Sources */ = {
+		43CCD87C2ACA2C4A00D620B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433B60FA2AC4940500EA8098 /* ghostBoardUITests.swift in Sources */,
-				433B60FC2AC4940500EA8098 /* ghostBoardUITestsLaunchTests.swift in Sources */,
+				43CCD8832ACA2C4A00D620B6 /* ghostBoardUITests.swift in Sources */,
+				43CCD8852ACA2C4A00D620B6 /* ghostBoardUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,10 +323,10 @@
 			target = 433B60DA2AC4940300EA8098 /* ghostBoard */;
 			targetProxy = 433B60EC2AC4940500EA8098 /* PBXContainerItemProxy */;
 		};
-		433B60F72AC4940500EA8098 /* PBXTargetDependency */ = {
+		43CCD8872ACA2C4A00D620B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 433B60DA2AC4940300EA8098 /* ghostBoard */;
-			targetProxy = 433B60F62AC4940500EA8098 /* PBXContainerItemProxy */;
+			targetProxy = 43CCD8862ACA2C4A00D620B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -545,10 +545,9 @@
 			};
 			name = Release;
 		};
-		433B61062AC4940500EA8098 /* Debug */ = {
+		43CCD8892ACA2C4A00D620B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8S62D745ZJ;
@@ -563,10 +562,9 @@
 			};
 			name = Debug;
 		};
-		433B61072AC4940500EA8098 /* Release */ = {
+		43CCD88A2ACA2C4A00D620B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8S62D745ZJ;
@@ -611,11 +609,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		433B61052AC4940500EA8098 /* Build configuration list for PBXNativeTarget "ghostBoardUITests" */ = {
+		43CCD8882ACA2C4A00D620B6 /* Build configuration list for PBXNativeTarget "ghostBoardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				433B61062AC4940500EA8098 /* Debug */,
-				433B61072AC4940500EA8098 /* Release */,
+				43CCD8892ACA2C4A00D620B6 /* Debug */,
+				43CCD88A2ACA2C4A00D620B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
